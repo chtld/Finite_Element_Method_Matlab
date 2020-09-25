@@ -1,0 +1,6 @@
+function result=gauss_int_test(right_hand_side, vertices, basis_type_test, basis_index_test,...
+                                                                der_test,gauss_type)
+[gauss_weight,gauss_point]=generate_gauss_formula(vertices,gauss_type);
+result = sum(gauss_weight.*right_hand_side(gauss_point)...
+      .*FE_local_basis(gauss_point,vertices,basis_type_test,basis_index_test,der_test));
+end
