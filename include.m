@@ -1,3 +1,3 @@
-function fh = include( folder )
-	fh = addpath(genpath([folder, '\fe_utils\']));
-end
+addpath(genpath(pwd), '-begin');
+rmpath(genpath('./.git'));
+savepath;
