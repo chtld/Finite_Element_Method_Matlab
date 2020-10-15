@@ -1,4 +1,4 @@
-function [solution, error] = possion_solver(pde, mesh, FE, basis_type_trial, basis_type_test)
+function [solution, error] = possion_solver_1d(pde, mesh, FE, basis_type_trial, basis_type_test)
 % possion_solver
 % 1-d possion_solver for possion equation
 % @author: chtld
@@ -10,6 +10,7 @@ A = assemble_matrix_steady_1d(pde.coefficient, mesh, FE, basis_type_trial, basis
 b = assemble_vector_steady_1d(pde.right_hand_side, mesh, FE, basis_type_test, 0, 4);
 [A, b] = treat_boundary_condition(A, b, FE, pde);
 solution = A \ b;
-u = pde.exact(FE.Pb)';
-error = norm(solution - u, 2);
+error.l2_norm = compute_error_Hs_norm(pde.exact, solution, mesh.P, mesh.T, FE.Tb, basis_type_test, 0, 4);
+error.h1_semi_norm = compute_error_Hs_norm(pde.exact_x, solution, mesh.P, mesh.T, FE.Tb, basis_type_test, 1, 4);
+error.infinite_norm = compute_error_infinite_norm(pde.exact, solution, mesh.P, mesh.T, FE.Tb, basis_type_test, 0);
 end

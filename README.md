@@ -9,8 +9,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+  
   <a href="https://github.com/chtld/Finite_Elemnet_Method_Matlab">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="740" height="80">
   </a>
 
   <h3 align="center">Finite_Element_Method_Matlab</h3>
@@ -50,8 +51,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<!--
 [![Product Name Screen Shot][product-screenshot]](https://github.com/chtld/Finite_Element_Method_Matlab)
+-->
+
 
 一个简单通用易上手的有限元 matlab 实现 .
 本项目发起的原因:
