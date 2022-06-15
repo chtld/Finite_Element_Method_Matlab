@@ -129,7 +129,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-chtld - [甚远](https://www.zhihu.com/people/shen-yuan-77-42) - shangyuanzhang@foxmail.com
+chtld - contact by issue
 
 Project Link: [https://github.com/chtld/Finite_Element_Method_Matlab](https://github.com/chtld/Finite_Element_Method_Matlab)
 
