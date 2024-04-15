@@ -7,11 +7,7 @@ for k=1:number_of_boundarynodes
         b(FE.boundarynodes(2,k))= pde.Dirichlet(FE.Pb(FE.boundarynodes(2,k)));
     elseif FE.boundarynodes(1, k) == -2
         x = FE.Pb(FE.boundarynodes(2, k));
-        if pde.rightBoundaryType == "Neumann"
-            b(FE.boundarynodes(2, k)) = b(FE.boundarynodes(2, k)) + pde.coefficient(x) .* pde.Neumann(x);
-        end
-        if pde.leftBoundaryType == "Neumann"
-            b(FE.boundarynodes(2, k)) = b(FE.boundarynodes(2, k)) - pde.coefficient(x) .* pde.Neumann(x);
-        end
+        if pde.
+        b(FE.boundarynodes(2, k)) = b(FE.boundarynodes(2, k)) + pde.coefficient(x) .* pde.Neumann(x);
     end
 end

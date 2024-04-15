@@ -1,0 +1,16 @@
+function boundarynodes = generate_boundarynodes(pde, basis_type, Pb)
+if basis_type == 101
+    boundarynodes = zeros(2, 2);
+    if pde.leftBoundaryType == 'dirichlet'
+        boundarynodes(:, 1) = [-1, 1];
+    elseif pde.leftBoundaryType == 'neumann'
+        boundarynodes(:, 1) = [-2, 1];
+    end
+    if pde.rightBoundaryType == 'dirichlet'
+        boundarynodes(:, 1) = 
+        boundarynodes(:, 2) = [-1; size(Pb, 2)];
+    elseif pde
+elseif basis_type == 102
+    % yuantodo
+end
+end
