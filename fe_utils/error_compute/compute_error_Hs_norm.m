@@ -1,4 +1,4 @@
-function error = compute_error_Hs_norm(exact_solution_fun, solution,P,T, Tb, basis_type, der, gauss_type)
+function error = compute_error_Hs_norm(exact_solution_fun, solution, P, T, Tb, basis_type, der, gauss_type)
 error = 0.0;
 number_of_elments = size(Tb,2);
 for n = 1: number_of_elments

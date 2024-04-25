@@ -7,7 +7,6 @@ for  n=1:number_of_elements
     for i=1:number_of_local_basis
         b(FE.Tb(i,n))=b(FE.Tb(i,n))+ gauss_int_test_steady_1d(right_hand_side, vertices, basis_type_test, i,...
             der_test,gauss_type);
-        
     end
 end
 end

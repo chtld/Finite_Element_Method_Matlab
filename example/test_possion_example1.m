@@ -21,7 +21,7 @@ pde.leftBoundaryType = 'Neumann';
 pde.rightBoundaryType = 'Dirichlet';
 % pde.rightBoundaryType = "Neumann";
 
-basis_type = 101;
+basis_type = 102;
 np = [8, 16, 32, 64, 128, 256, 512, 1024];
 grid_size = zeros(length(np), 1);
 l2_error = zeros(length(np), 1);

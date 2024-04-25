@@ -14,6 +14,6 @@ title('Convergence', 'FontSize', 16);
 grid on;
 set(gca, 'FontSize', 12);
 % 输出收敛阶
-% disp('收敛阶：');
-% disp(convergence_order);
+disp('收敛阶：');
+disp(convergence_order);
 end
