@@ -17,7 +17,7 @@
   <h3 align="center">Finite_Element_Method_Matlab</h3>
 
   <p align="center">
-    有限元方法的 matlab 实现
+    A Matlab implementation of the Finite Element Method  
     <br />
     <a href="https://github.com/chtld/Finite_Element_Method_Matlab"><strong>Explore the docs »</strong></a>
     <br />
@@ -56,62 +56,61 @@
 -->
 
 
-一个简单通用易上手的有限元 matlab 实现 .
-本项目发起的原因:
-* 一个兼容所有的有限元程序包很复杂
-* 有限元方法的基本原理是通用的
-* 作为一名计算数学专业的学生，希望为科学计算减少技术壁垒
-* 本项目的实现来自于何晓明老师的授课，通过何老师的授课我学会了一点有限元，非常感谢他。
+A simple, general, and easy-to-use Matlab implementation of the finite element method.  
+The motivation for this project:  
+* A universal finite element package is often too complex  
+* The fundamental principles of the finite element method are general  
+* As a student majoring in computational mathematics, I hope to reduce technical barriers in scientific computing  
+* This project is based on the lectures of Professor He Xiaoming. Through his course, I learned some finite element basics, and I am very grateful to him.  
 
-致谢中列出了一些我认为有用的常用资源。
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Some commonly used resources that I find helpful are listed in the acknowledgements.  
 
 ### Built With
 
-本项目使用了下列工具 :
+This project is developed with:  
 * [matlab](https://www.mathworks.com)
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-下面给出了在本项目的使用过程中如何设置你的环境 .
+Below is how to set up your environment to use this project.  
 
 ### Prerequisites
 
-预先安装的软件及其安装方法 :
+Software that needs to be installed in advance:
 * matlab
 ```
-请首先自己安装 matlab，安装方法请访问百度.
+Please install Matlab by yourself. For installation instructions, please refer to Baidu.
 ```
 
 ### Installation
 
-1. 克隆本仓库
+1. Clone the repository
 ```sh
 git clone https://github.com/chtld/Finite_Element_Method_Matlab.git
 ```
-2. 将本项目加入 matlab 搜索路径
+2. Add this project to Matlab’s search path
 ```
-运行 include.m
+Run include.m
 ```
-3. 尽情享用
+3. Enjoy!
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-在 example 目录下有不同方程的示例，详情请阅读源代码。
+Examples for different equations can be found in the example directory. Please check the source code for details.
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-有关建议的特性(和已知问题)的列表，请参阅[开放问题](https://github.com/chtld/Finite_Element_Method_Matlab/issues) .
+For a list of proposed features (and known issues), please refer to the[open issues](https://github.com/chtld/Finite_Element_Method_Matlab/issues) .
 See the [open issues](https://github.com/chtld/Finite_Element_Method_Matlab/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-欢迎大家一起来搞事情.
+Contributions are welcome!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
